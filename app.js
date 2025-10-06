@@ -196,6 +196,17 @@ Exercise 12: FizzBuzz with arrays
 Complete Exercise 12 in the space below:
 */
 
+const fizz = [];
+const buzz = [];
+const fizzbuzz =[]; 
+
+for (const n of nums) {
+    if (n % 3 === 0) fizz.push(n);
+    if (n % 5 === 0) buzz.push(n);
+    if (n % 3 === 0 && n % 5 === 0) fizzbuzz.push(n);
+
+
+}
 
 
 console.log('Exercise 12 Results:');
